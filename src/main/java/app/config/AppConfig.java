@@ -8,8 +8,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "app")
 public class AppConfig {
-  //  @Bean(name = "dog")
-   // public D
     @Bean(name = "timer")
     public Timer getTimer(){
         Timer timer = new Timer();

@@ -5,10 +5,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public  class Animal {
-    @Autowired
+
+
+   @Autowired
     private Dog dog;
     @Override
+
     public String toString(){
-        return dog.toString();
+       return dog.toString();
     }
+
 }
