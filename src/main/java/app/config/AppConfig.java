@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Scope;
 public class AppConfig {
     @Bean(name = "timer")
     @Scope("singleton")
-    public Timer getTimer(){
+    public Timer getTimer() {
         Timer timer = new Timer();
         timer.getTime();
         return timer;
