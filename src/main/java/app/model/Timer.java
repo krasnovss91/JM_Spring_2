@@ -7,12 +7,14 @@ import java.time.LocalDateTime;
 @Component
 public class Timer
 {
-    @Autowired
+   /* @Autowired
     private AnimalsCage animalsCage;
 
     public String toString(){
         return animalsCage.whatAnimalSay();
     }
+
+    */
 
     private Long nanoTime = System.nanoTime();
 
